@@ -3,7 +3,8 @@
   "expoServerPort": null,
   "packagerPort": null,
   "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerNgrokUrl": "https://p2-p24.yoloadr.reactnativefirebase.exp.direct",
+  "packagerNgrokUrl": "https://packager.p2-p24.yoloadr.reactnativefirebase.exp.direct",
+  "ngrokPid": 6979,
+  "webpackServerPort": null
 }
