@@ -2,7 +2,9 @@ import React from 'react';
 import {
   ActivityIndicator,
   StatusBar,
-  View
+  View,
+  StyleSheet,
+  AsyncStorage,
 } from 'react-native';
 
 export class AuthLoadingScreen extends React.Component {

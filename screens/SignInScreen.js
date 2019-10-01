@@ -1,7 +1,9 @@
 import React from 'react';
 import {
   Button,
-  View
+  View,
+  StyleSheet,
+  AsyncStorage
 } from 'react-native';
 
 export class SignInScreen extends React.Component {
@@ -22,3 +24,11 @@ export class SignInScreen extends React.Component {
       this.props.navigation.navigate('App');
     };
   }
+
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+  });
